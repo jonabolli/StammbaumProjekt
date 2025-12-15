@@ -1,5 +1,3 @@
-js
-
 var personen = [
   { id: 1, name: "Abraham", geb: "v.Chr.", info: "Beruf: Hirte" },
   { id: 2, name: "Sara", geb: "v.Chr.", info: "Mutter" },
