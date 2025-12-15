@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <title>Mein Stammbaum</title>
+  <meta charset="UTF-8">
+  <title>Von Abraham bis Jesus</title>
+
+  <!-- FamilyTree JS -->
+  <script src="https://balkan.app/js/FamilyTree.js"></script>
+
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+    #tree {
+      width: 100%;
+      height: 100vh;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hallo Stammbaum</h1>
+
+<div id="tree"></div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+  
 </body>
 </html>
